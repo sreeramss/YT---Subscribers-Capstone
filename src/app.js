@@ -21,8 +21,8 @@ app.get('/', (req, res)=>{
 // Route to get all subscribers
 app.get('/subscribers',async(req,res)=>{
     try{
-        let subcribers = await Subscriber.find();               // Fetch all subscribers
-        res.status(200).send(subcribers);
+        let subscribers = await Subscriber.find();               // Fetch all subscribers
+        res.status(200).send(subscribers);
     }
     catch(err){
         res.status(500).send(err);
