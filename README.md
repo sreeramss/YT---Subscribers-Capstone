@@ -12,7 +12,8 @@ This project provides APIs for managing YouTube subscribers. It includes endpoin
 1. Clone this repository.
 2. Install dependencies using `npm install`.
 3. Ensure MongoDB is installed and running on your system.
-4. Start the server using `node src/index.js`.
+4. Inside the Terminal first create databse `node src/createDatabase.js`
+5. Start the server using `node src/index.js`.
 
 ## API Endpoints
 
