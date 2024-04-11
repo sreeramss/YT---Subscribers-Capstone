@@ -45,7 +45,7 @@ app.get('/subscribers/names',async(req,res)=>{
 
 // Route to get a subscriber by ID
 app.get('/subscribers/:id',async (req, res)=>{
-    try{
+    try{                                                                   //fetch data of a subscriber with subscriber ID
         let subscribers = await Subscriber.findById(req.params.id);
         // Response data
         res.status(200).send(subscribers);
