@@ -2,7 +2,7 @@
 
 ## Description
 
-This project provides APIs for managing YouTube subscribers. It includes endpoints for retrieving all subscribers, retrieving subscribers with specific fields, and retrieving a subscriber by their ID.
+This Node.js application acts as a central hub for managing YouTube subscribers. It relies on MongoDB to store subscriber data and uses Express.js and Mongoose to handle the backend operations smoothly. Moreover, we've deployed this application worldwide through the Render platform, making it easy to access and able to handle increased traffic effectively. The live webpage features a user-friendly interface, making it simple for users to navigate and interact with the available API endpoints.
 
 ![image](https://github.com/sreeramss/YT-Subscribers/assets/89720320/a7611aa0-806a-49f0-b442-67a3367b4e26)
 
