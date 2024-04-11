@@ -18,15 +18,21 @@ This project provides APIs for managing YouTube subscribers. It includes endpoin
 
 ### Get All Subscribers
 
+![image](https://github.com/sreeramss/YT-Subscribers/assets/89720320/8e313be1-4aa1-4fa6-a2a9-899ee9be166d)
+
 - **Endpoint:** `GET /subscribers`
 - **Description:** Returns an array of all subscribers in the database.
 
 ### Get Subscribers with Selected Fields
 
+![image](https://github.com/sreeramss/YT-Subscribers/assets/89720320/3b600128-31be-4e4a-811b-826b0413cd85)
+
 - **Endpoint:** `GET /subscribers/names`
 - **Description:** Returns an array of subscribers with only the `name` and `subscribedChannel` fields.
 
 ### Get Subscriber by ID
+
+![image](https://github.com/sreeramss/YT-Subscribers/assets/89720320/11761a77-d594-4603-b802-00dc7eaf265b)
 
 - **Endpoint:** `GET /subscribers/:id`
 - **Description:** Returns the details of a subscriber with the given ID.
